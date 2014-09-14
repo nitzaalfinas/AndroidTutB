@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.nitza.tutb.MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <Button
+        android:id="@+id/btnA"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tombol A" />
+
+    <Button
+        android:id="@+id/btnB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tombol B" />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Tulisan linear" />
+
+    <EditText
+        android:id="@+id/editTextA"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/checkBoxA"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox" />
+
+</LinearLayout>
